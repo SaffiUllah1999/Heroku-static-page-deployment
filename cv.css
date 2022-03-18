@@ -34,9 +34,11 @@
   h1{
     color: white;
     font-size: 29px;
+    font-family: times, "Times New Roman",;
   }
   p{
     color: white;
+    font-family: times, "Times New Roman",;
   }
   
   .line{
@@ -44,26 +46,37 @@
     width: -20px;
     height: 1px;
 }
+.line1{
+    border-left: 517px solid white;
+    top: 20px;
+    width: -20px;
+    height: 1px;
+    margin-top: 29px;
+}
 
 h2{
   color: white;
   align-items: left;
+  font-family: times, "Times New Roman",;
 
 }
 p1{
  align-items:left;
  color: white;
+ font-family: times, "Times New Roman",;
 }
 h3{
 align-content: left;
 left: 10px;
 color: white;
 margin: top 10px;
-top: 10px;
+top: 10px; 
+font-family: times, "Times New Roman",;
 } 
 p3{
   left: 10px;
 color: white;
+font-family: times, "Times New Roman",;
 }
 .left1{
    margin-left: 30px;
