@@ -1,83 +1,81 @@
-
-.split {
-    height: 100%;
-    width: 79%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-  .left {
-  left: -132px;
-  background-color: #111;
-}
-
-.right {
-    right: -3px;
-  background-color: 002C5C;
-}
-.centered {
-    position: absolute;
-    top: 26%;
-    left: 28%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
+.row{
+    
+  height: 500px;
+  margin-top: 21px;
+  box-shadow: 0 15px 15px 0 rgb(0 0 0 / 20%), 0 15px 20px 0 rgb(0 0 0 / 31%);
   
-  .centered img {
-    width: 176px;
-    border-radius: 52%;
-    height: 198px;
-    margin-top: 198px;
-  }
-  h1{
-    color: white;
-    font-size: 29px;
-    font-family: times, "Times New Roman",;
-  }
-  p{
-    color: white;
-    font-family: times, "Times New Roman",;
-  }
   
-  .line{
-    border-left: 261px solid white;
-    width: -20px;
-    height: 1px;
+  
 }
-.line1{
-    border-left: 517px solid white;
-    top: 20px;
-    width: -20px;
-    height: 1px;
-    margin-top: 29px;
+.col-sm-3 {
+-ms-flex: 0 0 25%;
+flex: 0 0 8%;
+max-width: 55%;
+flex-direction: row;
+}
+.col-sm-2{
+  background-color: rgb(9, 94, 82) !important;
+  flex-direction: vertical;
+  height: 100%;
+  text-align: center;
+}
+.col-sm-10{
+  background-color: black!important;
+  height: 100%;
+  flex-direction: vertical !important;
+  
 }
 
-h2{
+img {
+  width: 108%;
+  border-radius: 52%;
+  height: 136px;
+  
+  
+}
+h1{
   color: white;
-  align-items: left;
-  font-family: times, "Times New Roman",;
-
+  font-size: 29px;
+ 
 }
-p1{
- align-items:left;
- color: white;
- font-family: times, "Times New Roman",;
+p{
+  color: white; 
+  align-content: center;
+}
+p3{
+  color: white;
+  font-size: 1vw;
 }
 h3{
-align-content: left;
-left: 10px;
-color: white;
-margin: top 10px;
-top: 10px; 
-font-family: times, "Times New Roman",;
-} 
-p3{
-  left: 10px;
-color: white;
-font-family: times, "Times New Roman",;
+  color: white;
+  font-size: 1.5vw;
+  margin-top: 8%;
 }
-.left1{
-   margin-left: 30px;
+p4{
+  font-size:1.5vw;
+  color: white;
+}
+p1{
+  color: white;
+  font-size: 1vw;
+}
+body{
+  background-color: rgb(255, 255, 255);
+}
+h4{
+  color: white;
+  font-size: 1.5vw;
+  margin-top: 4%;
+}
+.line{
+  height: 0px;
+  width: 105%;
+   border-width:0;
+
+   border: 0.5px white solid;
+}
+.col-sm-4 {
+-ms-flex: 0 0 33.333333%;
+flex: 0 0 33.333333%;
+max-width: 12.333333%;
 }
